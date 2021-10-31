@@ -4,4 +4,4 @@ RUN apt update
 RUN apt install snapd -y
 RUN snap install exercism
 RUN exercism version
-RUN exercism configure --token=123
+RUN exercism configure --token=456
